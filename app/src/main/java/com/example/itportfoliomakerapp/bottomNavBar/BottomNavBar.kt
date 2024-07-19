@@ -37,7 +37,7 @@ fun BottomNavBar(navController: NavController) {
                 Icon(
                     painter = painterResource(id = R.drawable.thunder_svgrepo_com),
                     contentDescription = "Skills",
-                    modifier = Modifier.size(36.dp)
+                    modifier = Modifier.size(32.dp)
                 )
             }
             IconButton(onClick = {
@@ -46,7 +46,7 @@ fun BottomNavBar(navController: NavController) {
                 Icon(
                     painter = painterResource(id = R.drawable.profile_svgrepo_com),
                     contentDescription = "Profile",
-                    modifier = Modifier.size(36.dp)
+                    modifier = Modifier.size(32.dp)
                 )
             }
             IconButton(onClick = {
@@ -55,7 +55,7 @@ fun BottomNavBar(navController: NavController) {
                 Icon(
                     painter = painterResource(id = R.drawable.portfolio_suitcase_svgrepo_com),
                     contentDescription = "Projects",
-                    modifier = Modifier.size(36.dp)
+                    modifier = Modifier.size(32.dp)
                 )
             }
             IconButton(onClick = {
@@ -64,7 +64,7 @@ fun BottomNavBar(navController: NavController) {
                 Icon(
                     painter = painterResource(id = R.drawable.settings_svgrepo_com),
                     contentDescription = "Settings",
-                    modifier = Modifier.size(36.dp)
+                    modifier = Modifier.size(32.dp)
                 )
             }
         }

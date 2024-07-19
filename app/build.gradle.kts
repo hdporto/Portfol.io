@@ -71,4 +71,6 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:$nav_version")
     implementation("androidx.core:core-splashscreen:1.0.1")
     implementation("androidx.compose.material:material-icons-extended:1.5.4")
+
+    implementation("io.coil-kt:coil:2.7.0")
 }
